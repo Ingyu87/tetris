@@ -1,0 +1,79 @@
+# 테트리스 게임 - Git 무시 파일
+
+# 환경 변수 및 설정
+.env
+config.ini
+*.conf
+
+# 게임 데이터 파일
+scores.json
+*.db
+*.sqlite
+backups/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Streamlit
+.streamlit/
+*.pyc
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
+*.log
+*.bak
+
+# 테스트 관련
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 배포 관련
+*.zip
+*.tar.gz
+deploy/
+.github/workflows/deploy.yml
